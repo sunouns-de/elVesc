@@ -1,0 +1,3 @@
+[submodule "elVesc-esp32"]
+	path = esp32-code
+	url = git@github.com:sunouns-de/elVesc-esp32.git
