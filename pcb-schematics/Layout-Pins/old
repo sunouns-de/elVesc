@@ -1,0 +1,45 @@
+Head Unit
+---------
+
+
+Pins ESP32
+Display
+    CS - GPIO15
+    DC - GPIO02
+    RES - NULL
+    SDA - GPIO04
+    SCLK - GPIO14
+    VDD - 3,3V
+    VSS - GND
+
+
+Buttons Hupe Licht
+    GND - Rot - GND
+    Licht - Weiß - GPIO32
+    Hupe - Grün - GPIO33
+
+Bremse Rechts
+    GND - Grün - GND 
+    3,3V - Weiß - 3,3V
+    Signal - Rot - GPIO34
+
+Bremse Links
+    GND - Grün - GND 
+    3,3V - Weiß - 3,3V
+    Signal - Rot - GPIO35
+
+VESC
+    RX - Grün - GPIO03
+    TX - Weiß - GPIO01
+    GND - Rot - GND
+
+
+
+Relais
+    GND - GND
+    1. Pin - GPIO12
+    (2. Pin - GPIO14)
+    3. Pin - GPIO27
+    4. Pin - GPIO26
+    3.3V - GPIO25 -> Dauerhaft auf High setzen!
+
