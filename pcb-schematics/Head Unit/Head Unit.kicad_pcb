@@ -169,7 +169,7 @@
 	(footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
 		(layer "F.Cu")
 		(uuid "08dfc8e2-d8fb-4d99-96ee-722e4ff7201a")
-		(at 40.455 146.63)
+		(at 43.34 141.15)
 		(descr "8 Pol Shallow Latch Connector, Modjack, RJ45 (https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf)")
 		(tags "RJ45")
 		(property "Reference" "J6"
@@ -3469,7 +3469,7 @@
 		)
 		(fp_arc
 			(start 13.07 -40.499145)
-			(mid 13.216448 -40.852695)
+			(mid 13.216448 -40.852699)
 			(end 13.57 -40.999145)
 			(stroke
 				(width 0.2)
@@ -3480,7 +3480,7 @@
 		)
 		(fp_arc
 			(start 13.07 -1.699145)
-			(mid 13.216448 -2.052695)
+			(mid 13.216448 -2.052699)
 			(end 13.57 -2.199145)
 			(stroke
 				(width 0.2)
@@ -3491,7 +3491,7 @@
 		)
 		(fp_arc
 			(start 13.57 -39.799145)
-			(mid 13.216463 -39.945594)
+			(mid 13.216427 -39.945588)
 			(end 13.07 -40.299145)
 			(stroke
 				(width 0.2)
@@ -3502,7 +3502,7 @@
 		)
 		(fp_arc
 			(start 13.57 -0.999145)
-			(mid 13.216463 -1.145594)
+			(mid 13.216427 -1.145588)
 			(end 13.07 -1.499145)
 			(stroke
 				(width 0.2)
@@ -3513,7 +3513,7 @@
 		)
 		(fp_arc
 			(start 18.87 -40.999145)
-			(mid 19.223569 -40.852701)
+			(mid 19.223534 -40.852695)
 			(end 19.37 -40.499145)
 			(stroke
 				(width 0.2)
@@ -3524,7 +3524,7 @@
 		)
 		(fp_arc
 			(start 18.87 -2.199145)
-			(mid 19.223569 -2.052701)
+			(mid 19.223534 -2.052695)
 			(end 19.37 -1.699145)
 			(stroke
 				(width 0.2)
@@ -3535,7 +3535,7 @@
 		)
 		(fp_arc
 			(start 19.37 -40.299145)
-			(mid 19.223569 -39.945563)
+			(mid 19.223563 -39.945598)
 			(end 18.87 -39.799145)
 			(stroke
 				(width 0.2)
@@ -3546,7 +3546,7 @@
 		)
 		(fp_arc
 			(start 19.37 -1.499145)
-			(mid 19.223569 -1.145563)
+			(mid 19.223563 -1.145598)
 			(end 18.87 -0.999145)
 			(stroke
 				(width 0.2)
@@ -3579,7 +3579,7 @@
 		)
 		(fp_arc
 			(start 53.97 -40.499145)
-			(mid 54.116463 -40.852669)
+			(mid 54.116456 -40.852705)
 			(end 54.47 -40.999145)
 			(stroke
 				(width 0.2)
@@ -3590,7 +3590,7 @@
 		)
 		(fp_arc
 			(start 53.97 -1.699145)
-			(mid 54.116463 -2.052669)
+			(mid 54.116456 -2.052705)
 			(end 54.47 -2.199145)
 			(stroke
 				(width 0.2)
@@ -3601,7 +3601,7 @@
 		)
 		(fp_arc
 			(start 54.47 -39.799145)
-			(mid 54.116463 -39.945594)
+			(mid 54.116427 -39.945588)
 			(end 53.97 -40.299145)
 			(stroke
 				(width 0.2)
@@ -3612,7 +3612,7 @@
 		)
 		(fp_arc
 			(start 54.47 -0.999145)
-			(mid 54.116463 -1.145594)
+			(mid 54.116427 -1.145588)
 			(end 53.97 -1.499145)
 			(stroke
 				(width 0.2)
@@ -3623,7 +3623,7 @@
 		)
 		(fp_arc
 			(start 59.77 -40.999145)
-			(mid 60.123569 -40.852701)
+			(mid 60.123534 -40.852695)
 			(end 60.27 -40.499145)
 			(stroke
 				(width 0.2)
@@ -3634,7 +3634,7 @@
 		)
 		(fp_arc
 			(start 59.77 -2.199145)
-			(mid 60.123569 -2.052701)
+			(mid 60.123534 -2.052695)
 			(end 60.27 -1.699145)
 			(stroke
 				(width 0.2)
@@ -3645,7 +3645,7 @@
 		)
 		(fp_arc
 			(start 60.27 -40.299145)
-			(mid 60.123569 -39.945563)
+			(mid 60.123563 -39.945598)
 			(end 59.77 -39.799145)
 			(stroke
 				(width 0.2)
@@ -3656,7 +3656,7 @@
 		)
 		(fp_arc
 			(start 60.27 -1.499145)
-			(mid 60.123569 -1.145563)
+			(mid 60.123563 -1.145598)
 			(end 59.77 -0.999145)
 			(stroke
 				(width 0.2)
@@ -7962,7 +7962,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e1e710f4-94fb-4043-9d73-15918fcc9131")
-		(at 38.6 122.4 90)
+		(at 40.96 122.5 90)
 		(descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x06 2.54mm single row")
 		(property "Reference" "J9"
@@ -8265,6 +8265,145 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "dc-dc:1779205111"
+		(layer "F.Cu")
+		(uuid "e3d07e5e-775c-485e-ad58-fccf0ed1df44")
+		(at 40.58 117.96 90)
+		(property "Reference" "U3"
+			(at 0 -0.5 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e3aeead9-e9db-4a80-8153-00d84e572e95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c4bdb440-a102-4a94-99df-b5a45f302444")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "dc-dc:1779205111"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aef10f8e-b032-4a0a-afdc-250787725c18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/1779205111.pdf"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d56fcb90-13ba-4b67-939b-5e1ac9c4214b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2ba14c6-a4eb-43b5-aaa3-43ea3597d82b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/59feaa5a-1173-4881-ad65-2f980aa2e572")
+		(sheetname "Root")
+		(sheetfile "Head Unit.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -4.54 -10.18)
+			(end 7.06 -3.18)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "9883bc0d-378e-4a13-986f-1038042c776c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8a43d23b-8f66-4061-b6ef-8b63f68b31b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -2.54 -5.08 90)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 15 "GND")
+			(pinfunction "-VIN")
+			(pintype "input")
+			(uuid "01077a5a-bfed-4d45-9c06-78e9bc5852aa")
+		)
+		(pad "2" thru_hole circle
+			(at 0 -5.08 90)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 29 "+3V3")
+			(pinfunction "+VIN")
+			(pintype "input")
+			(uuid "1c498b9f-ac53-4bfa-8dd8-e3746c99bf7f")
+		)
+		(pad "3" thru_hole circle
+			(at 2.54 -5.08 90)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 15 "GND")
+			(pinfunction "-VOUT")
+			(pintype "input")
+			(uuid "ad5cb743-68dc-4b51-a0be-3c435f014266")
+		)
+		(pad "4" thru_hole circle
+			(at 5.08 -5.08 90)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 9 "+5V")
+			(pinfunction "+VOUT")
+			(pintype "input")
+			(uuid "ae0744b4-992a-421c-9c4d-77252a68048a")
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
@@ -8596,7 +8735,7 @@
 		)
 	)
 	(gr_text "3V3 GND ADC1 RX TX ADC2 NC"
-		(at 37 127 0)
+		(at 39.36 127.1 0)
 		(layer "F.SilkS")
 		(uuid "26f8a406-8ff7-4b24-9d9a-c86bac13f729")
 		(effects
@@ -8644,7 +8783,7 @@
 		)
 	)
 	(gr_text "GND 3V3 R1  R2  R3  R4"
-		(at 37.338 125.222 0)
+		(at 39.698 125.322 0)
 		(layer "F.SilkS")
 		(uuid "88219749-464e-461a-b48f-6ab32d416dfb")
 		(effects
@@ -8656,7 +8795,7 @@
 		)
 	)
 	(gr_text "elVESC\nVersion 1.0\nApril 2024\nL1E.eu\n© Patrick Zauner"
-		(at 26.416 119.888 0)
+		(at 88.5 65.5 0)
 		(layer "F.SilkS")
 		(uuid "8a08a08b-aa8a-474a-8d77-9530880c516a")
 		(effects
