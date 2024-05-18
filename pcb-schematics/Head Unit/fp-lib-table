@@ -4,4 +4,5 @@
   (lib (name "display")(type "KiCad")(uri "${KIPRJMOD}/display.pretty")(options "")(descr ""))
   (lib (name "Converter_DCDC")(type "KiCad")(uri "${KIPRJMOD}/Converter_DCDC.pretty")(options "")(descr ""))
   (lib (name "dc-dc")(type "KiCad")(uri "${KIPRJMOD}/dc-dc.pretty")(options "")(descr ""))
+  (lib (name "esp32")(type "KiCad")(uri "${KIPRJMOD}/esp32.pretty")(options "")(descr ""))
 )
