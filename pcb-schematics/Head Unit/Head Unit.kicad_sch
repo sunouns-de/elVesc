@@ -5,151 +5,6 @@
 	(uuid "72a7bf7d-3f77-4e7b-b4ee-540d3fa2db11")
 	(paper "A4")
 	(lib_symbols
-		(symbol "3v3-5v:1779205111"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 1.27 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "dc-dc:1779205111"
-				(at 1.27 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/1779205111.pdf"
-				(at 1.27 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 1.27 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1779205111_0_1"
-				(rectangle
-					(start -5.08 2.54)
-					(end 5.08 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1779205111_1_1"
-				(text "3v3 - 5 v"
-					(at 0 1.524 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 -8.89 90)
-					(length 2.54)
-					(name "-VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 -8.89 90)
-					(length 2.54)
-					(name "+VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.27 -8.89 90)
-					(length 2.54)
-					(name "-VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 -8.89 90)
-					(length 2.54)
-					(name "+VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Conn_01x03_Socket_1"
 			(pin_names
 				(offset 1.016)
@@ -4527,16 +4382,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 107.95) (xy 200.66 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b11c961-a708-4667-8109-402e759323ee")
-	)
-	(wire
-		(pts
 			(xy 255.27 78.74) (xy 256.54 78.74)
 		)
 		(stroke
@@ -4847,16 +4692,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 107.95) (xy 208.28 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "882d7180-c29e-4b0b-9f4c-6853a0051392")
-	)
-	(wire
-		(pts
 			(xy 38.1 165.1) (xy 33.02 165.1)
 		)
 		(stroke
@@ -4904,16 +4739,6 @@
 			(type default)
 		)
 		(uuid "92d5a334-5fb4-413d-b17d-af429dbcc983")
-	)
-	(wire
-		(pts
-			(xy 205.74 127) (xy 205.74 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94cf6003-17dd-47f2-bae2-f486255c040b")
 	)
 	(wire
 		(pts
@@ -5164,16 +4989,6 @@
 			(type default)
 		)
 		(uuid "ebf95ffd-a304-4d98-9e1a-f919906e45ba")
-	)
-	(wire
-		(pts
-			(xy 203.2 107.95) (xy 203.2 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeda6d36-a9e0-4dd7-8c3c-442ad32b24a2")
 	)
 	(wire
 		(pts
@@ -5501,7 +5316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_esp"
+		(property "Value" "+5V"
 			(at 85.344 46.736 0)
 			(effects
 				(font
@@ -6730,148 +6545,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 205.74 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5292ed2d-0364-44cf-a2a6-2291c73313fd")
-		(property "Reference" "#PWR032"
-			(at 205.74 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 205.74 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73771eee-e676-4b58-b03a-59ecd33c0996")
-		)
-		(instances
-			(project "Head Unit"
-				(path "/72a7bf7d-3f77-4e7b-b4ee-540d3fa2db11"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "3v3-5v:1779205111")
-		(at 204.47 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59feaa5a-1173-4881-ad65-2f980aa2e572")
-		(property "Reference" "U3"
-			(at 210.82 99.6921 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 210.82 101.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "dc-dc:1779205111"
-			(at 210.82 103.5021 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/1779205111.pdf"
-			(at 205.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "732ff085-c627-4b46-9234-279c4eec762f")
-		)
-		(pin "3"
-			(uuid "a320b212-c7ae-4ea0-a805-32e96b088bd6")
-		)
-		(pin "1"
-			(uuid "d5be821b-e0e2-436e-b240-094c33233e85")
-		)
-		(pin "4"
-			(uuid "ed4098f5-95b3-44bb-a899-049f483df5b4")
-		)
-		(instances
-			(project "Head Unit"
-				(path "/72a7bf7d-3f77-4e7b-b4ee-540d3fa2db11"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 260.35 63.5 0)
 		(unit 1)
@@ -7736,72 +7409,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 200.66 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80f567fe-7226-4be5-b4d1-72a98690dc9e")
-		(property "Reference" "#PWR031"
-			(at 200.66 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 200.66 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e560cdf-560d-40cf-84f2-11b225fe1d9a")
-		)
-		(instances
-			(project "Head Unit"
-				(path "/72a7bf7d-3f77-4e7b-b4ee-540d3fa2db11"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 224.79 69.85 0)
 		(unit 1)
@@ -7820,7 +7427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+5V"
 			(at 224.79 64.77 0)
 			(effects
 				(font
@@ -8090,7 +7697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_esp"
+		(property "Value" "+5V"
 			(at 43.18 120.6499 90)
 			(effects
 				(font
@@ -8157,7 +7764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+5V"
 			(at 156.21 163.83 0)
 			(effects
 				(font
@@ -8515,72 +8122,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 203.2 118.11 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aadde34f-2b03-4bc8-8121-0920a9cf4622")
-		(property "Reference" "#PWR030"
-			(at 203.2 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 203.2 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 203.2 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb0951ad-b3d5-4491-81fe-0dd0f33a7b53")
-		)
-		(instances
-			(project "Head Unit"
-				(path "/72a7bf7d-3f77-4e7b-b4ee-540d3fa2db11"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 39.37 115.57 90)
 		(unit 1)
@@ -8778,73 +8319,6 @@
 			(project "Head Unit"
 				(path "/72a7bf7d-3f77-4e7b-b4ee-540d3fa2db11"
 					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 208.28 118.11 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8af662e-66e8-49ce-be13-92c8bc37556a")
-		(property "Reference" "#PWR033"
-			(at 208.28 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_esp"
-			(at 210.82 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 208.28 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "145df8a1-ef04-4198-bf07-f512f06e83c0")
-		)
-		(instances
-			(project "Head Unit"
-				(path "/72a7bf7d-3f77-4e7b-b4ee-540d3fa2db11"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9075,7 +8549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_esp"
+		(property "Value" "+5V"
 			(at 39.37 105.4099 90)
 			(effects
 				(font
