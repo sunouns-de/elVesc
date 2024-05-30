@@ -576,6 +576,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -590,7 +598,7 @@
   "sheets": [
     [
       "72a7bf7d-3f77-4e7b-b4ee-540d3fa2db11",
-      "Root"
+      "Stammblatt"
     ]
   ],
   "text_variables": {}
