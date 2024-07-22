@@ -1,0 +1,13 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"J10";"PinHeader_1x02_P2.54mm_Vertical";1;"DC 3.3V";;;
+2;"J5";"PinHeader_1x03_P2.54mm_Vertical";1;"Rekuperation Vesc";;;
+3;"J4";"PinHeader_1x03_P2.54mm_Vertical";1;"Gashebel Vesc";;;
+4;"J7";"DIYMORE.CC";1;"Display";;;
+5;"J8,J11";"PinHeader_1x02_P2.54mm_Vertical";2;"DC 5V";;;
+6;"J3";"PinHeader_1x03_P2.54mm_Vertical";1;"Bremshebel links";;;
+7;"J1";"PinHeader_1x03_P2.54mm_Vertical";1;"Hupe Licht";;;
+8;"J2";"PinHeader_1x03_P2.54mm_Vertical";1;"Bremshebel rechts";;;
+9;"J13";"PinHeader_1x02_P2.54mm_Vertical";1;"Reset Button";;;
+10;"J6";"RJ45_Amphenol_54602-x08_Horizontal";1;"HU Conn";;;
+11;"C1";"C_Radial_D5.0mm_H5.0mm_P2.00mm";1;"C 100nF";;;
+12;"U1";"ESP32-DevKitC";1;"ESP32-DevKitC";;;

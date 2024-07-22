@@ -1,0 +1,15 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"U2";"DPBW06_MWU";1;"12V_to_5V";;;
+2;"J2";"TerminalBlock_bornier-2_P5.08mm";1;"Bremslicht";;;
+3;"R2";"R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal";1;"330";;;
+4;"J3";"PinHeader_1x08_P2.54mm_Vertical";1;"VESC Conn to VESC";;;
+5;"U1";"PKU4913DPIHS_FPM";1;"PKU4913DPIHS";;;
+6;"J6";"TerminalBlock_bornier-2_P5.08mm";1;"Licht vorne";;;
+7;"C1";"C_Radial_D5.0mm_H5.0mm_P2.00mm";1;"2n7";;;
+8;"J1";"RJ45_Amphenol_54602-x08_Horizontal";1;"HU Connector";;;
+9;"MOSFET1,MOSFET2";"PQFN6_2X2_INF";2;"IRLHS6242TRPBF";;;
+10;"J7";"AMASS_XT60-F_1x02_P7.20mm_Vertical";1;"Akku";;;
+11;"R1";"R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal";1;"25m";;;
+12;"U3";"SOIC-8_M_MCH";1;"MIC5021YM-TR";;;
+13;"J5";"TerminalBlock_bornier-2_P5.08mm";1;"Licht hinten";;;
+14;"J4";"TerminalBlock_bornier-2_P5.08mm";1;"Hupe";;;

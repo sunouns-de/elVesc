@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "dcdc-wandler-12")(type "KiCad")(uri "${KIPRJMOD}/dcdc-wandler-12.kicad_sym")(options "")(descr ""))
+  (lib (name "mosfet-n-channel")(type "KiCad")(uri "${KIPRJMOD}/mosfet-n-channel.kicad_sym")(options "")(descr ""))
+  (lib (name "mosfet-driver-highside-switch")(type "KiCad")(uri "${KIPRJMOD}/mosfet-driver-highside-switch.kicad_sym")(options "")(descr ""))
+)
