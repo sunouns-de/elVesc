@@ -1,6 +1,6 @@
 # README
 
-This is a WIP Project and probably will be merged or extended with other projects in Winter 2025/26`
+`This is a WIP Project and probably will be merged or extended with other projects in Winter 2025/26`
 
 ![Summer 2024](ride.png)
 
