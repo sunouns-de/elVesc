@@ -10,6 +10,8 @@ You find the code, flashable on an ESP32 DevKitC with PlatformIO in the submodul
 
 Everything needed for the PCB inside pcb-schematics.
 
+![pcb-schematics](PCB-overview-and-schematic.png)
+
 Link to Onshape Design of Headunit Mount in directory 3d design.
 Other project designs will also be added here.
 
