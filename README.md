@@ -54,11 +54,11 @@ Proper way for multiple bikes will be to utilize config files.
  - Home Assistant integration
 - OTA Updates
 - Blinkers but requires more Pins on ESP32 or multiplexing
-  - Also requires more than current 8 wires by using a normal RJ45-connector and Ethernet-cable to bottom or serial communication and therefore another microcontroller on the SPDB Unit
+  - Also requires more than current 8 wires by using a normal RJ45-connector and Ethernet-cable to bottom or serial communication and therefore another microcontroller on the SPDB.
 
-### Switching and Power Distribution Unit (SPDB Unit)
+### Switching and Power Distribution Board (SPDB)
 
-![Switching and Power Distribution Unit](SPDB.png)
+![Switching and Power Distribution](SPDB.png)
 
 Converts high battery voltage to 12V for the headlights and other components. (DC
 /DC converter is not cheap, but great quality and has pleanty of headroom)
