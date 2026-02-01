@@ -1,13 +1,13 @@
 # README
 
-`Status: Abgeschlossen (Archiv-Stand).`
+`Status: Completed (Archive State).`
 
-Dieses Projekt wird nicht weiter als eigenständiges WIP geführt. Grund hierfür ist die Verfügbarkeit offizieller VESC-Peripherie (wie der [VESC Dash 35B](https://www.vesclabs.com/product/vesc-dash-35b/) oder der [VESC Rmcore](https://www.vesclabs.com/product/vesc-rmcore/)), die viele der hier angestrebten Ziele nativ und in Teilen besser abdecken.
+This project is no longer being maintained as an active WIP. The primary reason is the availability of official VESC peripherals (such as the [VESC Dash 35B](https://www.vesclabs.com/product/vesc-dash-35b/) or the [VESC Rmcore](https://www.vesclabs.com/product/vesc-rmcore/)), which cover many of the original goals (CAN connectivity, LispBM scripting) natively and, in some aspects, more effectively.
 
-**Wichtige Hinweise zum aktuellen Stand:**
-1. **PCB-Design:** Das aktuellste PCB-Design im Repository enthält noch Fehler. Die Leiterplatine muss für eine fehlerfreie Funktion nochmals final gegen die Schematics abgeglichen und überarbeitet werden.
-2. **12V High-Side Switching:** Im Gegensatz zu vielen anderen, aber auch der offiziellen Lösung wie dem RmCore unterstützt dieses Design explizit 12V High-Side Switching für die Fahrzeugbeleuchtung.
-3. **Hardware-Fixes:** Die Schaltung der Hupe wurde im Schematic bereits korrigiert, ist jedoch noch nicht im physischen Platinen-Layout umgesetzt.
+**Important notes on the current state:**
+1. **PCB Design:** The latest PCB design in this repository still contains errors. The board layout needs to be cross-checked against the schematics and revised before it can be considered fully functional.
+2. **12V High-Side Switching:** Unlike many other solutions, including official ones like the RmCore, this design explicitly supports 12V high-side switching for vehicle lighting.
+3. **Hardware Fixes:** The horn circuitry has already been corrected in the schematic but has not yet been implemented in the physical PCB layout.
 
 ![Summer 2024](ride.png)
 
