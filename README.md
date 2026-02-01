@@ -1,6 +1,13 @@
 # README
 
-`This is a WIP Project and probably will be merged or extended with other projects in Winter 2025/26`
+`Status: Abgeschlossen (Archiv-Stand).`
+
+Dieses Projekt wird nicht weiter als eigenständiges WIP geführt. Grund hierfür ist die Verfügbarkeit offizieller VESC-Peripherie (wie der [VESC Dash 35B](https://www.vesclabs.com/product/vesc-dash-35b/) oder der [VESC Rmcore](https://www.vesclabs.com/product/vesc-rmcore/)), die viele der hier angestrebten Ziele nativ und in Teilen besser abdecken.
+
+**Wichtige Hinweise zum aktuellen Stand:**
+1. **PCB-Design:** Das aktuellste PCB-Design im Repository enthält noch Fehler. Die Leiterplatine muss für eine fehlerfreie Funktion nochmals final gegen die Schematics abgeglichen und überarbeitet werden.
+2. **12V High-Side Switching:** Im Gegensatz zu vielen anderen, aber auch der offiziellen Lösung wie dem RmCore unterstützt dieses Design explizit 12V High-Side Switching für die Fahrzeugbeleuchtung.
+3. **Hardware-Fixes:** Die Schaltung der Hupe wurde im Schematic bereits korrigiert, ist jedoch noch nicht im physischen Platinen-Layout umgesetzt.
 
 ![Summer 2024](ride.png)
 
